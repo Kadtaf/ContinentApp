@@ -1,7 +1,5 @@
 package com.devfolio.continents;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -14,7 +12,7 @@ public class ContinentsApp {
     // Méthode principale appelée depuis Main.java
     public static void run() {
         Scanner scanner = new Scanner(System.in);
-        List<String> notes = new ArrayList<>(); // Liste pour stocker les notes utilisateur
+        NoteManager noteManager = new NoteManager(); // Gestionnaire de notes
 
         boolean continueExploration = true;
 
@@ -52,7 +50,7 @@ public class ContinentsApp {
             if (response.equalsIgnoreCase("oui")) {
                 System.out.print("Entrez votre note : ");
                 String note = scanner.nextLine();
-                notes.add(note); // Ajout à la liste
+                noteManager.addNote(note); // Ajout via NoteManager
                 System.out.println("📝 Note enregistrée !");
             }
 
@@ -62,12 +60,9 @@ public class ContinentsApp {
             continueExploration = restart.equalsIgnoreCase("oui");
         }
 
-        // Affichage des notes enregistrées
-        if (!notes.isEmpty()) {
-            System.out.println("\n📚 Vos notes enregistrées :");
-            for (int i = 0; i < notes.size(); i++) {
-                System.out.println("  " + (i + 1) + ". " + notes.get(i));
-            }
+        // Affichage des notes enregistrées via NoteManager
+        if (noteManager.hasNotes()) {
+            noteManager.displayNotes();
         }
 
         System.out.println("\n🌟 Merci d'avoir utilisé l'explorateur de continents !");
@@ -78,8 +73,8 @@ public class ContinentsApp {
      * Affiche une bannière stylisée en début de session.
      */
     private static void displayBanner() {
-        System.out.println("\n=============================================");
+        System.out.println("\n══════════════════════════════════════════════");
         System.out.println("🌍 Bienvenue dans l'explorateur de continents !");
-        System.out.println("================================================");
+        System.out.println("══════════════════════════════════════════════");
     }
 }
