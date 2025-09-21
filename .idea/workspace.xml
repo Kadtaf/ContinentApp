@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c247c94b-d64e-49fc-9d41-d41f2f76664c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/devfolio/continents/UIManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +62,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NoteManagerTest">
-    <configuration name="ContinentTypeTest.testFromIndexInvalidHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.devfolio.continents" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UIManagerTest">
+    <configuration name="UIManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ContinentsApp" />
       <extension name="coverage">
         <pattern>
@@ -71,66 +77,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentTypeTest" />
-      <option name="METHOD_NAME" value="testFromIndexInvalidHigh" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContinentTypeTest.testFromIndexInvalidLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentTypeTest" />
-      <option name="METHOD_NAME" value="testFromIndexInvalidLow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContinentTypeTest.testFromIndexValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentTypeTest" />
-      <option name="METHOD_NAME" value="testFromIndexValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoteManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.NoteManagerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIManagerTest.testDisplayBanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
+      <option name="METHOD_NAME" value="testDisplayBanner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIManagerTest.testDisplayGoodbyeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
+      <option name="METHOD_NAME" value="testDisplayGoodbyeMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIManagerTest.testDisplayInvalidInputMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
+      <option name="METHOD_NAME" value="testDisplayInvalidInputMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIManagerTest.testDisplayNoteSavedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
+      <option name="METHOD_NAME" value="testDisplayNoteSavedMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NoteManagerTest" />
-        <item itemvalue="JUnit.ContinentTypeTest.testFromIndexInvalidHigh" />
-        <item itemvalue="JUnit.ContinentTypeTest.testFromIndexInvalidLow" />
-        <item itemvalue="JUnit.ContinentTypeTest.testFromIndexValid" />
+        <item itemvalue="JUnit.UIManagerTest" />
+        <item itemvalue="JUnit.UIManagerTest.testDisplayGoodbyeMessage" />
+        <item itemvalue="JUnit.UIManagerTest.testDisplayNoteSavedMessage" />
+        <item itemvalue="JUnit.UIManagerTest.testDisplayInvalidInputMessage" />
+        <item itemvalue="JUnit.UIManagerTest.testDisplayBanner" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758465094950</updated>
-      <workItem from="1758465096417" duration="9428000" />
+      <workItem from="1758465096417" duration="9952000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -232,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758474383121</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)">
+      <option name="closed" value="true" />
+      <created>1758474646142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758474646142</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +281,7 @@
     <MESSAGE value="Ajout de la classe UIManager pour centraliser l'affichage console." />
     <MESSAGE value="Refactorisation : intégration de UIManager pour centraliser l'affichage." />
     <MESSAGE value="Ajout des tests unitaires pour ContinentType (index et affichage)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des tests unitaires pour ContinentType (index et affichage)." />
+    <MESSAGE value="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)" />
   </component>
 </project>
