@@ -64,6 +64,15 @@ public class ContinentsApp {
         // Affichage des notes enregistrées via NoteManager
         if (noteManager.hasNotes()) {
             noteManager.displayNotes();
+
+            // Proposition d'export CSV
+            System.out.print("\nSouhaitez-vous exporter vos notes au format CSV ? (oui/non) : ");
+            String exportResponse = scanner.nextLine();
+
+            if (exportResponse.equalsIgnoreCase("oui")) {
+                noteManager.exportToCSV("notes.csv");
+            }
+
         }
 
         ui.displayGoodbyeMessage();

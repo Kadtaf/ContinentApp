@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c247c94b-d64e-49fc-9d41-d41f2f76664c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/NoteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/NoteManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="com.devfolio.continents" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NoteManagerTest.testExportToCSV">
+  <component name="RunManager">
     <configuration name="NoteManagerTest.testExportToCSV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ContinentsApp" />
       <extension name="coverage">
@@ -165,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758465094950</updated>
-      <workItem from="1758465096417" duration="11224000" />
+      <workItem from="1758465096417" duration="11526000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758475147082</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ajout de la méthode exportToCSV dans NoteManager + test unitaire">
+      <option name="closed" value="true" />
+      <created>1758476853393</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758476853393</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +298,7 @@
     <MESSAGE value="Ajout des tests unitaires pour ContinentType (index et affichage)." />
     <MESSAGE value="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)" />
     <MESSAGE value="Ajout des tests unitaires pour UIManager via capture du flux System.out" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des tests unitaires pour UIManager via capture du flux System.out" />
+    <MESSAGE value="Ajout de la méthode exportToCSV dans NoteManager + test unitaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode exportToCSV dans NoteManager + test unitaire" />
   </component>
 </project>
