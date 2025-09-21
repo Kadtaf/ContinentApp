@@ -9,8 +9,11 @@ import java.util.Scanner;
  */
 public class ContinentsApp {
 
+
+
     // Méthode principale appelée depuis Main.java
     public static void run() {
+        ContinentService continentService = new ContinentService();
         Scanner scanner = new Scanner(System.in);
         NoteManager noteManager = new NoteManager(); // Gestionnaire de notes
         UIManager ui = new UIManager();              // Gestionnaire d'affichage
@@ -34,9 +37,14 @@ public class ContinentsApp {
             scanner.nextLine(); // Consommer le retour à la ligne
 
             // Récupération du continent via l'enum
-            ContinentType continent = ContinentType.fromIndex(index);
+            ContinentType continent = continentService.getContinentByIndex(index);
 
             if (continent == null) {
+                ui.displayOutOfRangeMessage();
+                continue;
+            }
+
+            if (!continentService.isValidIndex(index)) {
                 ui.displayOutOfRangeMessage();
                 continue;
             }
