@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c247c94b-d64e-49fc-9d41-d41f2f76664c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.2.13\php.exe" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758465094950</updated>
-      <workItem from="1758465096417" duration="1357000" />
+      <workItem from="1758465096417" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -70,7 +70,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758465304731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout de la méthode run() dans ContinentsApp et appel depuis Main.java - structure modulaire prête">
+      <option name="closed" value="true" />
+      <created>1758466608974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758466608974</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Ajout de la méthode run() dans ContinentsApp et appel depuis Main.java - structure modulaire prête" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode run() dans ContinentsApp et appel depuis Main.java - structure modulaire prête" />
   </component>
 </project>
