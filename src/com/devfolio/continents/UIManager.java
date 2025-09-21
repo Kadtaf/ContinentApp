@@ -5,7 +5,7 @@ package com.devfolio.continents;
  * Elle centralise les messages, bannières et styles pour faciliter la maintenance
  */
 
-public class UiManager {
+public class UIManager {
 
     // Affiche la bannière d'accueil
     public void displayBanner() {

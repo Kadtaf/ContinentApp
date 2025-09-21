@@ -13,18 +13,19 @@ public class ContinentsApp {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         NoteManager noteManager = new NoteManager(); // Gestionnaire de notes
+        UIManager ui = new UIManager();              // Gestionnaire d'affichage
 
         boolean continueExploration = true;
 
         // Boucle principale : permet à l'utilisateur de relancer l'exploration
         while (continueExploration) {
-            displayBanner();
+            ui.displayBanner();
 
             System.out.print("Veuillez entrer un chiffre entre 1 et 7 pour choisir un continent : ");
 
             // Vérification que l'entrée est bien un entier
             if (!scanner.hasNextInt()) {
-                System.out.println("❌ Entrée invalide. Veuillez saisir un chiffre entre 1 et 7.");
+                ui.displayInvalidInputMessage();
                 scanner.nextLine(); // Nettoyer l'entrée
                 continue;
             }
@@ -36,7 +37,7 @@ public class ContinentsApp {
             ContinentType continent = ContinentType.fromIndex(index);
 
             if (continent == null) {
-                System.out.println("⚠️ Le chiffre doit être compris entre 1 et 7.");
+                ui.displayOutOfRangeMessage();
                 continue;
             }
 
@@ -51,7 +52,7 @@ public class ContinentsApp {
                 System.out.print("Entrez votre note : ");
                 String note = scanner.nextLine();
                 noteManager.addNote(note); // Ajout via NoteManager
-                System.out.println("📝 Note enregistrée !");
+                ui.displayNoteSavedMessage();
             }
 
             // Proposition de relancer
@@ -65,16 +66,7 @@ public class ContinentsApp {
             noteManager.displayNotes();
         }
 
-        System.out.println("\n🌟 Merci d'avoir utilisé l'explorateur de continents !");
+        ui.displayGoodbyeMessage();
         scanner.close();
-    }
-
-    /**
-     * Affiche une bannière stylisée en début de session.
-     */
-    private static void displayBanner() {
-        System.out.println("\n══════════════════════════════════════════════");
-        System.out.println("🌍 Bienvenue dans l'explorateur de continents !");
-        System.out.println("══════════════════════════════════════════════");
     }
 }
