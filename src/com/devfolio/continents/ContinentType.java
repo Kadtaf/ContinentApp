@@ -4,13 +4,13 @@ package com.devfolio.continents;
  * Enumération représentant les 7 continents avec leur ville principale et couleur ANSI.
  */
 public enum ContinentType {
-    NORTH_AMERICA("North America", "Mexico City, Mexico", "\u001B[34m"),
-    SOUTH_AMERICA("South America", "Sao Paulo, Brazil", "\u001B[32m"),
-    EUROPE("Europe", "Moscow, Russia", "\u001B[35m"),
-    AFRICA("Africa", "Lagos, Nigeria", "\u001B[33m"),
-    ASIA("Asia", "Shanghai, China", "\u001B[36m"),
-    AUSTRALIA("Australia", "Sydney, Australia", "\u001B[31m"),
-    ANTARCTICA("Antarctica", "McMurdo Station, US", "\u001B[37m");
+    NORTH_AMERICA("North America", "Mexico City, Mexico", "blue"),
+    SOUTH_AMERICA("South America", "Sao Paulo, Brazil", "green"),
+    EUROPE("Europe", "Moscow, Russia", "purple"),
+    AFRICA("Africa", "Lagos, Nigeria", "orange"),
+    ASIA("Asia", "Shanghai, China", "teal"),
+    AUSTRALIA("Australia", "Sydney, Australia", "red"),
+    ANTARCTICA("Antarctica", "McMurdo Station, US", "gray");
 
     private final String name;
     private final String city;
@@ -53,6 +53,14 @@ public enum ContinentType {
             return null;
         }
         return values()[index - 1];
+    }
+
+    /**
+     * Méthode utilitaire pour appliquer des couleurs
+     * @return la couleur correspondante au continent
+     */
+    public String getCssColor() {
+        return color;
     }
 
 

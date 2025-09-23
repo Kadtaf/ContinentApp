@@ -44,11 +44,6 @@ public class ContinentsApp {
                 continue;
             }
 
-            if (!continentService.isValidIndex(index)) {
-                ui.displayOutOfRangeMessage();
-                continue;
-            }
-
             // Affichage du continent stylisé
             System.out.println(continent.getFormattedDisplay());
 

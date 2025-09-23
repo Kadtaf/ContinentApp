@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c247c94b-d64e-49fc-9d41-d41f2f76664c" name="Changes" comment="">
+    <list default="true" id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsAppFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContinentsApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ContinentsApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,290 +24,88 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kadtaf"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Kadtaf/ContinentApp.git",
+    "accountId": "93ef63ba-9a78-4349-8bc0-a11e8412c189"
+  }
+}]]></component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.2.13\php.exe" />
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
-  <component name="ProjectId" id="330rzLGXGbF6JYwJSfyS9ngL93X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="336mvnX4JQ0YPxYmLx1SCNHGrx9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
+    "Application.ContinentsAppFX.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.devfolio.continents" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="NoteManagerTest.testExportToCSV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContinentsAppFX" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentsAppFX" />
       <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.NoteManagerTest" />
-      <option name="METHOD_NAME" value="testExportToCSV" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UIManagerTest.testDisplayGoodbyeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
-      <option name="METHOD_NAME" value="testDisplayGoodbyeMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UIManagerTest.testDisplayInvalidInputMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
-      <option name="METHOD_NAME" value="testDisplayInvalidInputMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UIManagerTest.testDisplayNoteSavedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContinentsApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devfolio.continents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
-      <option name="METHOD_NAME" value="testDisplayNoteSavedMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.NoteManagerTest.testExportToCSV" />
-        <item itemvalue="JUnit.UIManagerTest" />
-        <item itemvalue="JUnit.UIManagerTest.testDisplayGoodbyeMessage" />
-        <item itemvalue="JUnit.UIManagerTest.testDisplayNoteSavedMessage" />
-        <item itemvalue="JUnit.UIManagerTest.testDisplayInvalidInputMessage" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c247c94b-d64e-49fc-9d41-d41f2f76664c" name="Changes" comment="" />
-      <created>1758465094950</created>
+      <changelist id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="" />
+      <created>1758646130321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758465094950</updated>
-      <workItem from="1758465096417" duration="11526000" />
+      <updated>1758646130321</updated>
+      <workItem from="1758646131112" duration="2357000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <option name="closed" value="true" />
-      <created>1758465304731</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1758465304731</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ajout de la méthode run() dans ContinentsApp et appel depuis Main.java - structure modulaire prête">
-      <option name="closed" value="true" />
-      <created>1758466608974</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1758466608974</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Ajout des fonctionnalités enrichies : boucle, validation, historique des notes.">
-      <option name="closed" value="true" />
-      <created>1758467284277</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1758467284277</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Ajout de la classe Continent pour modéliser les données continentales.">
-      <option name="closed" value="true" />
-      <created>1758468032625</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1758468032625</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Ajout de l'enum ContinentType avec nom, ville et couleur.">
-      <option name="closed" value="true" />
-      <created>1758468584914</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1758468584914</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Refactorisation : utilisation de ContinentType enum pour remplacer le switch.">
-      <option name="closed" value="true" />
-      <created>1758468840842</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1758468840842</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Ajout de la classe NoteManager pour gérer les notes utilisateur.">
-      <option name="closed" value="true" />
-      <created>1758469755852</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1758469755852</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Intégration de NoteManager dans ContinentsApp pour une gestion modulaire des notes.">
-      <option name="closed" value="true" />
-      <created>1758469960609</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1758469960609</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Ajout de la classe UIManager pour centraliser l'affichage console.">
-      <option name="closed" value="true" />
-      <created>1758470707193</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1758470707193</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Refactorisation : intégration de UIManager pour centraliser l'affichage.">
-      <option name="closed" value="true" />
-      <created>1758470929007</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1758470929007</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Ajout des tests unitaires pour ContinentType (index et affichage).">
-      <option name="closed" value="true" />
-      <created>1758474383121</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1758474383121</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)">
-      <option name="closed" value="true" />
-      <created>1758474646142</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1758474646142</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Ajout des tests unitaires pour UIManager via capture du flux System.out">
-      <option name="closed" value="true" />
-      <created>1758475147082</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1758475147082</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Ajout de la méthode exportToCSV dans NoteManager + test unitaire">
-      <option name="closed" value="true" />
-      <created>1758476853393</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1758476853393</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Ajout de la méthode run() dans ContinentsApp et appel depuis Main.java - structure modulaire prête" />
-    <MESSAGE value="Ajout des fonctionnalités enrichies : boucle, validation, historique des notes." />
-    <MESSAGE value="Ajout de la classe Continent pour modéliser les données continentales." />
-    <MESSAGE value="Ajout de l'enum ContinentType avec nom, ville et couleur." />
-    <MESSAGE value="Refactorisation : utilisation de ContinentType enum pour remplacer le switch." />
-    <MESSAGE value="Ajout de la classe NoteManager pour gérer les notes utilisateur." />
-    <MESSAGE value="Intégration de NoteManager dans ContinentsApp pour une gestion modulaire des notes." />
-    <MESSAGE value="Ajout de la classe UIManager pour centraliser l'affichage console." />
-    <MESSAGE value="Refactorisation : intégration de UIManager pour centraliser l'affichage." />
-    <MESSAGE value="Ajout des tests unitaires pour ContinentType (index et affichage)." />
-    <MESSAGE value="Ajout des tests unitaires pour NoteManager (ajout, récupération, vérification)" />
-    <MESSAGE value="Ajout des tests unitaires pour UIManager via capture du flux System.out" />
-    <MESSAGE value="Ajout de la méthode exportToCSV dans NoteManager + test unitaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode exportToCSV dans NoteManager + test unitaire" />
   </component>
 </project>
