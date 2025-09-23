@@ -1,0 +1,23 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox spacing="10" alignment="CENTER" style="-fx-padding: 20;"
+      xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.devfolio.continents.controller.MainController"
+      stylesheets="@style.css" fx:id="root">
+    <Label fx:id="welcomeLabel" text="🌍 Bienvenue dans l'explorateur de continents"/>
+    <ComboBox fx:id="continentSelector"/>
+    <Button fx:id="showInfoButton" text="Afficher les infos"/>
+    <TextArea fx:id="infoArea"/>
+    <TextField fx:id="noteField" promptText="Ajouter une note..."/>
+    <Button fx:id="addNoteButton" text="Ajouter la note"/>
+    <ListView fx:id="noteList"/>
+    <Button fx:id="exportButton" text="Exporter en CSV"/>
+    <HBox fx:id="legendBox"/>
+</VBox>

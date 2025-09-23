@@ -1,0 +1,16 @@
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-pref-width: 200px;
+}
+.text-area {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-area, .text-field, .combo-box, .list-view {
+    -fx-pref-width: 400px;
+    -fx-font-weight: bold;
+}
