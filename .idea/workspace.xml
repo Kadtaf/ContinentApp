@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="Configuration de JavaFX et l'ajout du style concernant le formulaire">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/Continent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/Continent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsAppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/controller/ContinentsAppFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/NoteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/NoteManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/view/UIManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/ContinentTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/ContinentTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/UIManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/UIManagerTest.java" afterDir="false" />
+    <list default="true" id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="Ajout de fichier README.md">
+      <change beforePath="$PROJECT_DIR$/READM.md" beforeDir="false" afterPath="$PROJECT_DIR$/READM.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758646130321</updated>
-      <workItem from="1758646131112" duration="6435000" />
+      <workItem from="1758646131112" duration="6778000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration de JavaFX et l'ajout du style concernant le formulaire">
       <option name="closed" value="true" />
@@ -189,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758648580268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout de fichier README.md">
+      <option name="closed" value="true" />
+      <created>1758652644281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758652644281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de fichier README.md">
+      <option name="closed" value="true" />
+      <created>1758652828091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758652828091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuration de JavaFX et l'ajout du style concernant le formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration de JavaFX et l'ajout du style concernant le formulaire" />
+    <MESSAGE value="Ajout de fichier README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de fichier README.md" />
   </component>
 </project>
