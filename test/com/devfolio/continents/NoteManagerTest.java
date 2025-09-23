@@ -1,5 +1,6 @@
 package com.devfolio.continents;
 
+import com.devfolio.continents.model.NoteManager;
 import org.junit.jupiter.api.Test;
 import java.io.BufferedReader;
 import java.io.FileReader;

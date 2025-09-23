@@ -1,4 +1,4 @@
-package com.devfolio.continents;
+package com.devfolio.continents.view;
 
 /**
  * Classe responsable de l'affichage console de l'application

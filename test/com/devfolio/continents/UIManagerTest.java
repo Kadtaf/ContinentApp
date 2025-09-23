@@ -1,5 +1,6 @@
 package com.devfolio.continents;
 
+import com.devfolio.continents.view.UIManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

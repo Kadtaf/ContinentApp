@@ -1,4 +1,4 @@
-package com.devfolio.continents;
+package com.devfolio.continents.model;
 
 public class ContinentService {
 

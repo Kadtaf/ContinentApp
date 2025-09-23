@@ -1,4 +1,6 @@
-package com.devfolio.continents;
+package com.devfolio.continents.model;
+
+import com.devfolio.continents.view.UIManager;
 
 import java.util.Scanner;
 

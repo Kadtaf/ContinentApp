@@ -1,4 +1,4 @@
-package com.devfolio.continents;
+package com.devfolio.continents.model;
 
 /**
  * Enumération représentant les 7 continents avec leur ville principale et couleur ANSI.

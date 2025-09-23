@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_engine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsAppFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d7a9e065-8d90-4733-880f-8b50b4bca9aa" name="Changes" comment="Configuration de JavaFX et l'ajout du style concernant le formulaire">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContinentsApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ContinentsApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/Continent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/Continent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/ContinentsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/ContinentsAppFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/controller/ContinentsAppFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/NoteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/model/NoteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/devfolio/continents/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/devfolio/continents/view/UIManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/ContinentTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/ContinentTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/NoteManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/devfolio/continents/UIManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/devfolio/continents/UIManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,12 +64,16 @@
   "keyToString": {
     "Application.ContinentsAppFX.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ContinentTypeTest.executor": "Run",
+    "JUnit.NoteManagerTest.executor": "Run",
+    "JUnit.UIManagerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -74,17 +89,80 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devfolio.continents.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ContinentsAppFX">
     <configuration name="ContinentsAppFX" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentsAppFX" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.controller.ContinentsAppFX" />
       <module name="ContinentsApp" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContinentTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.ContinentTypeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.NoteManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinentsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devfolio.continents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devfolio.continents" />
+      <option name="MAIN_CLASS_NAME" value="com.devfolio.continents.UIManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ContinentsAppFX" />
+      <item itemvalue="JUnit.ContinentTypeTest" />
+      <item itemvalue="JUnit.NoteManagerTest" />
+      <item itemvalue="JUnit.UIManagerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UIManagerTest" />
+        <item itemvalue="JUnit.NoteManagerTest" />
+        <item itemvalue="JUnit.ContinentTypeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,11 +179,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758646130321</updated>
-      <workItem from="1758646131112" duration="2357000" />
+      <workItem from="1758646131112" duration="6435000" />
     </task>
+    <task id="LOCAL-00001" summary="Configuration de JavaFX et l'ajout du style concernant le formulaire">
+      <option name="closed" value="true" />
+      <created>1758648580268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758648580268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuration de JavaFX et l'ajout du style concernant le formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration de JavaFX et l'ajout du style concernant le formulaire" />
   </component>
 </project>

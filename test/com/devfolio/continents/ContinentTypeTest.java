@@ -1,5 +1,6 @@
 package com.devfolio.continents;
 
+import com.devfolio.continents.model.ContinentType;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

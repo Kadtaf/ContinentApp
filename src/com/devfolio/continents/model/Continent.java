@@ -1,4 +1,4 @@
-package com.devfolio.continents;
+package com.devfolio.continents.model;
 
 /**
  * Représente un continent avec son nom, sa ville principale et sa couleur ANSI.
